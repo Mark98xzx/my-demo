@@ -1,0 +1,12 @@
+// less 定义变量 @color: red
+// sass 定义变量 $color: red
+$length: 20px;
+.myrow {
+    margin-top: $length;
+    .mybtn {
+        margin-left: $length;
+    }
+}
+.mytab{
+    margin-top: 20px;
+}
